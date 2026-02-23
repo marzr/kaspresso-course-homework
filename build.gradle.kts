@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.hamcrest:hamcrest:2.2")
+
     testImplementation(kotlin("test"))
 }
 
